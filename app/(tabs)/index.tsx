@@ -26,17 +26,9 @@ export default function HomeScreen() {
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <ThemedText type="title">Our House</ThemedText>
-      </ThemedView>
         <HelloWave />
-      <SafeAreaView>
-        <View style={styles.stepContainer}>
-          <Text >hello</Text>
-          <Text >hello</Text>
-          <Text >hello</Text>
-          <Text >hello</Text>
-          <Text >hello</Text>
-        </View>
-      </SafeAreaView>
+      </ThemedView>
+      
       <Button title='Test' onPress={handlePress}/>
       
       
